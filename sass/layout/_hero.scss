@@ -1,12 +1,12 @@
 .hero {
     margin-left: auto;
     margin-right: auto;
-    width: 843px;
+    width: 1000px;
     text-align: center;
     margin-top: 152px;
 }
 
-h1 {
+.hero h1 {
   text-align: center;
   color: white;
   font-family: sans-serif;
@@ -14,14 +14,63 @@ h1 {
   margin-bottom: 20px;
 }
 
-h3 {
+.hero h3 {
   text-align: center;
   color: white;
   font-family: sans-serif;
   padding: 5px;
 }
 
-h3>span {
+.hero h3>span {
   line-height: 1;
   background-color: green;
+}
+
+.event-finder {
+  height: 100px;
+  width: 1000px;
+  background: #0fb24b;
+  margin-top: 40px;
+  display: -webkit-inline-box;
+  border-radius: 10px;
+}
+
+.hero h2 {
+    font-family: sans-serif;
+    color: white;
+    width: 285px;
+    padding-top: 35px;
+    margin-left: 60px;
+    margin-right: 79px;
+    font-size: 30px;
+}
+
+.event {
+    width: 408px;
+    height: 60px;
+    background: none;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    margin-top: 0px;
+    padding-top: 11px;
+}
+
+.event-btn {
+    width: 117px;
+    height: 60px;
+    background: white;
+    color: green;
+    border-radius: 10px;
+    margin-left: 22px;
+    margin-top: 23px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.event::placeholder {
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom: 8px;
 }
