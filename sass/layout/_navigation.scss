@@ -1,7 +1,13 @@
+.nav-logo {
+  width: 293px;
+  margin: 17px 0 0 166px;
+}
+
 .search {
   width: 350px;
+  height: 40px;
+  margin: 23px;
   background: none;
-  padding: 8px;
   border-radius: 20px;
   border-style: solid;
   color: white;
@@ -9,6 +15,7 @@
 
 .search::placeholder {
   color: white;
+  padding: 8px;
 }
 
 .navigation {
@@ -20,6 +27,9 @@
 .navbar {
   overflow: hidden;
   background-color: none;
+  float: right;
+  display: -webkit-inline-box;
+  margin-right: 239px;
 }
 
 .navbar a {
@@ -45,10 +55,8 @@
   background: rgba(255, 255, 255, 0.4);
 }
 
-.navbar {
-  float: right;
-  display: -webkit-inline-box;
-  margin-right: 447px;
+.dropdown {
+    margin-top: 13px;
 }
 
 .dropdown-content {
