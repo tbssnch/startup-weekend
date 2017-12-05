@@ -148,6 +148,26 @@
   padding-left: 20px;
   padding-bottom: 8px; }
 
+.introduction {
+  background-color: #f4f4f4; }
+
+.introduction h1 {
+  padding-top: 100px;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-family: sans-serif;
+  padding-bottom: 10px; }
+
+.introduction h2 {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 20px;
+  padding-right: 250px;
+  padding-left: 250px;
+  font-weight: lighter; }
+
 * {
   margin: 0;
   padding: 0;
